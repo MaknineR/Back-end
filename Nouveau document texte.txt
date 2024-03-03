@@ -1,0 +1,14 @@
+1.npm init
+2.create server.js
+3.npm install express
+4.npm install multer   //biblio  upload file
+4.npm install bcrypt   //biblio criptage mot de passe
+4.npm install jsonwebtoken    //JWT
+4.node server.js         //runing server
+5.const express =require('express');       //add express to project
+
+
+const app = express();
+app.listen(3000,()=>{
+    console.log('server is running');
+  });
